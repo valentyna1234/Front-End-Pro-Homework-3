@@ -1,27 +1,27 @@
-//Отримання значень від користувача
+//Getting values ​​from the user
 let a, b;
 a = Number(prompt( 'Enter the first value, please.' ));
 console.log(a);
 b = Number(prompt( 'Enter the second value, please.' ));
 console.log(b);
 
-//Додавання
+//Adding
 let c = a + b;
 console.log(c);
 
-//Віднімання
+//Subtracting
 let d = a - b;
 console.log(d);
 
-//Множення
+//Multiplying
 let e = a * b;
 console.log(e);
 
-//Ділення
+//Dividing
 let f = a / b;
 console.log(f);
 
-//Виведення отриманих даних
+//Outputting results
 alert( a + '+' + b + '=' + c + "\n" + a + '-' + b + '=' + d + "\n" + a + '*' + b + '=' + e +"\n" + a + '/' + b + '=' + f )
 
 
